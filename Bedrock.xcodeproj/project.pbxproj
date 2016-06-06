@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		010880B01CF488C800AB38FF /* NSData+BedrockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 010880AF1CF488C800AB38FF /* NSData+BedrockTests.m */; };
+		012393741D05A013009D5DD9 /* NSSet+BedrockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 012393731D05A013009D5DD9 /* NSSet+BedrockTests.m */; };
+		012393761D05A4C5009D5DD9 /* NSString+BedrockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 012393751D05A4C5009D5DD9 /* NSString+BedrockTests.m */; };
+		01276DA11CF2C2C50051D1FE /* NSDictionary+Bedrock.h in Headers */ = {isa = PBXBuildFile; fileRef = 01276D9F1CF2C2C50051D1FE /* NSDictionary+Bedrock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01276DA21CF2C2C50051D1FE /* NSDictionary+Bedrock.m in Sources */ = {isa = PBXBuildFile; fileRef = 01276DA01CF2C2C50051D1FE /* NSDictionary+Bedrock.m */; };
+		01276DA61CF2C8020051D1FE /* NSObject+Bedrock.h in Headers */ = {isa = PBXBuildFile; fileRef = 01276DA41CF2C8020051D1FE /* NSObject+Bedrock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01276DA71CF2C8020051D1FE /* NSObject+Bedrock.m in Sources */ = {isa = PBXBuildFile; fileRef = 01276DA51CF2C8020051D1FE /* NSObject+Bedrock.m */; };
+		01276DAA1CF2CA110051D1FE /* NSString+Bedrock.h in Headers */ = {isa = PBXBuildFile; fileRef = 01276DA81CF2CA110051D1FE /* NSString+Bedrock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01276DAB1CF2CA110051D1FE /* NSString+Bedrock.m in Sources */ = {isa = PBXBuildFile; fileRef = 01276DA91CF2CA110051D1FE /* NSString+Bedrock.m */; };
+		01276DAE1CF2CC050051D1FE /* NSAttributedString+Bedrock.h in Headers */ = {isa = PBXBuildFile; fileRef = 01276DAC1CF2CC050051D1FE /* NSAttributedString+Bedrock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01276DAF1CF2CC050051D1FE /* NSAttributedString+Bedrock.m in Sources */ = {isa = PBXBuildFile; fileRef = 01276DAD1CF2CC050051D1FE /* NSAttributedString+Bedrock.m */; };
+		01276DB21CF2CD920051D1FE /* NSError+Bedrock.h in Headers */ = {isa = PBXBuildFile; fileRef = 01276DB01CF2CD920051D1FE /* NSError+Bedrock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01276DB31CF2CD920051D1FE /* NSError+Bedrock.m in Sources */ = {isa = PBXBuildFile; fileRef = 01276DB11CF2CD920051D1FE /* NSError+Bedrock.m */; };
+		01276DB61CF2D9710051D1FE /* NSFileManager+Bedrock.h in Headers */ = {isa = PBXBuildFile; fileRef = 01276DB41CF2D9710051D1FE /* NSFileManager+Bedrock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01276DB71CF2D9710051D1FE /* NSFileManager+Bedrock.m in Sources */ = {isa = PBXBuildFile; fileRef = 01276DB51CF2D9710051D1FE /* NSFileManager+Bedrock.m */; };
+		01276DBA1CF2E7A40051D1FE /* NSDate+Bedrock.h in Headers */ = {isa = PBXBuildFile; fileRef = 01276DB81CF2E7A40051D1FE /* NSDate+Bedrock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01276DBB1CF2E7A40051D1FE /* NSDate+Bedrock.m in Sources */ = {isa = PBXBuildFile; fileRef = 01276DB91CF2E7A40051D1FE /* NSDate+Bedrock.m */; };
+		01276DBE1CF32A3F0051D1FE /* NSSet+Bedrock.h in Headers */ = {isa = PBXBuildFile; fileRef = 01276DBC1CF32A3F0051D1FE /* NSSet+Bedrock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01276DBF1CF32A3F0051D1FE /* NSSet+Bedrock.m in Sources */ = {isa = PBXBuildFile; fileRef = 01276DBD1CF32A3F0051D1FE /* NSSet+Bedrock.m */; };
+		01276DC21CF331480051D1FE /* NSData+Bedrock.h in Headers */ = {isa = PBXBuildFile; fileRef = 01276DC01CF331480051D1FE /* NSData+Bedrock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01276DC31CF331480051D1FE /* NSData+Bedrock.m in Sources */ = {isa = PBXBuildFile; fileRef = 01276DC11CF331480051D1FE /* NSData+Bedrock.m */; };
+		015C5A4A1C701EC400916261 /* Bedrock.h in Headers */ = {isa = PBXBuildFile; fileRef = 015C5A491C701EC400916261 /* Bedrock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		015C5A511C701EC400916261 /* Bedrock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 015C5A461C701EC400916261 /* Bedrock.framework */; };
+		015C5A561C701EC400916261 /* BedrockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 015C5A551C701EC400916261 /* BedrockTests.m */; };
+		015C5A651C701EF800916261 /* NSArray+Bedrock.h in Headers */ = {isa = PBXBuildFile; fileRef = 015C5A631C701EF800916261 /* NSArray+Bedrock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		015C5A661C701EF800916261 /* NSArray+Bedrock.m in Sources */ = {isa = PBXBuildFile; fileRef = 015C5A641C701EF800916261 /* NSArray+Bedrock.m */; };
+		015C5A691C704AC900916261 /* BedrockMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 015C5A681C704AC900916261 /* BedrockMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		015C5A6D1C72000800916261 /* BedrockMacrosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 015C5A6C1C72000800916261 /* BedrockMacrosTests.m */; };
+		015C5A6F1C72001300916261 /* NSArray+BedrockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 015C5A6E1C72001300916261 /* NSArray+BedrockTests.m */; };
+		015C5A731C72031E00916261 /* Expecta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 015C5A721C72031E00916261 /* Expecta.framework */; };
+		015C5A751C72051400916261 /* Expecta.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 015C5A721C72031E00916261 /* Expecta.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		018DEC261D054C5D000DD339 /* NSAttributedString+BedrockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 018DEC251D054C5D000DD339 /* NSAttributedString+BedrockTests.m */; };
+		018DEC281D05534D000DD339 /* NSDate+BedrockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 018DEC271D05534D000DD339 /* NSDate+BedrockTests.m */; };
+		018DEC2A1D055A17000DD339 /* NSDictionary+BedrockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 018DEC291D055A17000DD339 /* NSDictionary+BedrockTests.m */; };
+		018DEC2C1D056189000DD339 /* NSError+BedrockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 018DEC2B1D056189000DD339 /* NSError+BedrockTests.m */; };
+		018DEC2E1D05628F000DD339 /* NSFileManager+BedrockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 018DEC2D1D05628F000DD339 /* NSFileManager+BedrockTests.m */; };
+		018DEC301D0562A9000DD339 /* NSObject+BedrockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 018DEC2F1D0562A9000DD339 /* NSObject+BedrockTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		015C5A521C701EC400916261 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 015C5A3D1C701EC400916261 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 015C5A451C701EC400916261;
+			remoteInfo = BedRock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		015C5A741C72050300916261 /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				015C5A751C72051400916261 /* Expecta.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		010880AF1CF488C800AB38FF /* NSData+BedrockTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+BedrockTests.m"; sourceTree = "<group>"; };
+		012393731D05A013009D5DD9 /* NSSet+BedrockTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSet+BedrockTests.m"; sourceTree = "<group>"; };
+		012393751D05A4C5009D5DD9 /* NSString+BedrockTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+BedrockTests.m"; sourceTree = "<group>"; };
+		01276D9F1CF2C2C50051D1FE /* NSDictionary+Bedrock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Bedrock.h"; sourceTree = "<group>"; };
+		01276DA01CF2C2C50051D1FE /* NSDictionary+Bedrock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Bedrock.m"; sourceTree = "<group>"; };
+		01276DA41CF2C8020051D1FE /* NSObject+Bedrock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Bedrock.h"; sourceTree = "<group>"; };
+		01276DA51CF2C8020051D1FE /* NSObject+Bedrock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Bedrock.m"; sourceTree = "<group>"; };
+		01276DA81CF2CA110051D1FE /* NSString+Bedrock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Bedrock.h"; sourceTree = "<group>"; };
+		01276DA91CF2CA110051D1FE /* NSString+Bedrock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Bedrock.m"; sourceTree = "<group>"; };
+		01276DAC1CF2CC050051D1FE /* NSAttributedString+Bedrock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+Bedrock.h"; sourceTree = "<group>"; };
+		01276DAD1CF2CC050051D1FE /* NSAttributedString+Bedrock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+Bedrock.m"; sourceTree = "<group>"; };
+		01276DB01CF2CD920051D1FE /* NSError+Bedrock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+Bedrock.h"; sourceTree = "<group>"; };
+		01276DB11CF2CD920051D1FE /* NSError+Bedrock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+Bedrock.m"; sourceTree = "<group>"; };
+		01276DB41CF2D9710051D1FE /* NSFileManager+Bedrock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+Bedrock.h"; sourceTree = "<group>"; };
+		01276DB51CF2D9710051D1FE /* NSFileManager+Bedrock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+Bedrock.m"; sourceTree = "<group>"; };
+		01276DB81CF2E7A40051D1FE /* NSDate+Bedrock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Bedrock.h"; sourceTree = "<group>"; };
+		01276DB91CF2E7A40051D1FE /* NSDate+Bedrock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Bedrock.m"; sourceTree = "<group>"; };
+		01276DBC1CF32A3F0051D1FE /* NSSet+Bedrock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSet+Bedrock.h"; sourceTree = "<group>"; };
+		01276DBD1CF32A3F0051D1FE /* NSSet+Bedrock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSet+Bedrock.m"; sourceTree = "<group>"; };
+		01276DC01CF331480051D1FE /* NSData+Bedrock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Bedrock.h"; sourceTree = "<group>"; };
+		01276DC11CF331480051D1FE /* NSData+Bedrock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Bedrock.m"; sourceTree = "<group>"; };
+		015C5A461C701EC400916261 /* Bedrock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Bedrock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		015C5A491C701EC400916261 /* Bedrock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bedrock.h; sourceTree = "<group>"; };
+		015C5A4B1C701EC400916261 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		015C5A501C701EC400916261 /* Bedrock.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Bedrock.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		015C5A551C701EC400916261 /* BedrockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BedrockTests.m; sourceTree = "<group>"; };
+		015C5A571C701EC400916261 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		015C5A631C701EF800916261 /* NSArray+Bedrock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Bedrock.h"; sourceTree = "<group>"; };
+		015C5A641C701EF800916261 /* NSArray+Bedrock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Bedrock.m"; sourceTree = "<group>"; };
+		015C5A681C704AC900916261 /* BedrockMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BedrockMacros.h; sourceTree = "<group>"; };
+		015C5A6C1C72000800916261 /* BedrockMacrosTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BedrockMacrosTests.m; sourceTree = "<group>"; };
+		015C5A6E1C72001300916261 /* NSArray+BedrockTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+BedrockTests.m"; sourceTree = "<group>"; };
+		015C5A721C72031E00916261 /* Expecta.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Expecta.framework; path = Build/iOS/Expecta.framework; sourceTree = "<group>"; };
+		018DEC251D054C5D000DD339 /* NSAttributedString+BedrockTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+BedrockTests.m"; sourceTree = "<group>"; };
+		018DEC271D05534D000DD339 /* NSDate+BedrockTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+BedrockTests.m"; sourceTree = "<group>"; };
+		018DEC291D055A17000DD339 /* NSDictionary+BedrockTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+BedrockTests.m"; sourceTree = "<group>"; };
+		018DEC2B1D056189000DD339 /* NSError+BedrockTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+BedrockTests.m"; sourceTree = "<group>"; };
+		018DEC2D1D05628F000DD339 /* NSFileManager+BedrockTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+BedrockTests.m"; sourceTree = "<group>"; };
+		018DEC2F1D0562A9000DD339 /* NSObject+BedrockTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BedrockTests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		015C5A421C701EC400916261 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		015C5A4D1C701EC400916261 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				015C5A511C701EC400916261 /* Bedrock.framework in Frameworks */,
+				015C5A731C72031E00916261 /* Expecta.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01276DA31CF2C7DA0051D1FE /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				015C5A631C701EF800916261 /* NSArray+Bedrock.h */,
+				015C5A641C701EF800916261 /* NSArray+Bedrock.m */,
+				01276DAC1CF2CC050051D1FE /* NSAttributedString+Bedrock.h */,
+				01276DAD1CF2CC050051D1FE /* NSAttributedString+Bedrock.m */,
+				01276DC01CF331480051D1FE /* NSData+Bedrock.h */,
+				01276DC11CF331480051D1FE /* NSData+Bedrock.m */,
+				01276DB81CF2E7A40051D1FE /* NSDate+Bedrock.h */,
+				01276DB91CF2E7A40051D1FE /* NSDate+Bedrock.m */,
+				01276D9F1CF2C2C50051D1FE /* NSDictionary+Bedrock.h */,
+				01276DA01CF2C2C50051D1FE /* NSDictionary+Bedrock.m */,
+				01276DB01CF2CD920051D1FE /* NSError+Bedrock.h */,
+				01276DB11CF2CD920051D1FE /* NSError+Bedrock.m */,
+				01276DB41CF2D9710051D1FE /* NSFileManager+Bedrock.h */,
+				01276DB51CF2D9710051D1FE /* NSFileManager+Bedrock.m */,
+				01276DA41CF2C8020051D1FE /* NSObject+Bedrock.h */,
+				01276DA51CF2C8020051D1FE /* NSObject+Bedrock.m */,
+				01276DBC1CF32A3F0051D1FE /* NSSet+Bedrock.h */,
+				01276DBD1CF32A3F0051D1FE /* NSSet+Bedrock.m */,
+				01276DA81CF2CA110051D1FE /* NSString+Bedrock.h */,
+				01276DA91CF2CA110051D1FE /* NSString+Bedrock.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		015C5A3C1C701EC400916261 = {
+			isa = PBXGroup;
+			children = (
+				015C5A481C701EC400916261 /* Bedrock */,
+				015C5A541C701EC400916261 /* BedrockTests */,
+				015C5A701C7202FE00916261 /* Carthage */,
+				015C5A471C701EC400916261 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		015C5A471C701EC400916261 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				015C5A461C701EC400916261 /* Bedrock.framework */,
+				015C5A501C701EC400916261 /* Bedrock.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		015C5A481C701EC400916261 /* Bedrock */ = {
+			isa = PBXGroup;
+			children = (
+				015C5A491C701EC400916261 /* Bedrock.h */,
+				015C5A671C704AB600916261 /* Macros */,
+				01276DA31CF2C7DA0051D1FE /* Categories */,
+				015C5A4B1C701EC400916261 /* Info.plist */,
+			);
+			path = Bedrock;
+			sourceTree = "<group>";
+		};
+		015C5A541C701EC400916261 /* BedrockTests */ = {
+			isa = PBXGroup;
+			children = (
+				015C5A6A1C71FFEE00916261 /* Macros */,
+				015C5A6B1C71FFF300916261 /* Categories */,
+				015C5A551C701EC400916261 /* BedrockTests.m */,
+				015C5A571C701EC400916261 /* Info.plist */,
+			);
+			path = BedrockTests;
+			sourceTree = "<group>";
+		};
+		015C5A671C704AB600916261 /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				015C5A681C704AC900916261 /* BedrockMacros.h */,
+			);
+			name = Macros;
+			sourceTree = "<group>";
+		};
+		015C5A6A1C71FFEE00916261 /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				015C5A6C1C72000800916261 /* BedrockMacrosTests.m */,
+			);
+			name = Macros;
+			sourceTree = "<group>";
+		};
+		015C5A6B1C71FFF300916261 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				015C5A6E1C72001300916261 /* NSArray+BedrockTests.m */,
+				018DEC251D054C5D000DD339 /* NSAttributedString+BedrockTests.m */,
+				010880AF1CF488C800AB38FF /* NSData+BedrockTests.m */,
+				018DEC271D05534D000DD339 /* NSDate+BedrockTests.m */,
+				018DEC291D055A17000DD339 /* NSDictionary+BedrockTests.m */,
+				018DEC2B1D056189000DD339 /* NSError+BedrockTests.m */,
+				018DEC2D1D05628F000DD339 /* NSFileManager+BedrockTests.m */,
+				018DEC2F1D0562A9000DD339 /* NSObject+BedrockTests.m */,
+				012393731D05A013009D5DD9 /* NSSet+BedrockTests.m */,
+				012393751D05A4C5009D5DD9 /* NSString+BedrockTests.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		015C5A701C7202FE00916261 /* Carthage */ = {
+			isa = PBXGroup;
+			children = (
+				015C5A721C72031E00916261 /* Expecta.framework */,
+			);
+			path = Carthage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		015C5A431C701EC400916261 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01276DA61CF2C8020051D1FE /* NSObject+Bedrock.h in Headers */,
+				01276DAA1CF2CA110051D1FE /* NSString+Bedrock.h in Headers */,
+				01276DBA1CF2E7A40051D1FE /* NSDate+Bedrock.h in Headers */,
+				01276DB61CF2D9710051D1FE /* NSFileManager+Bedrock.h in Headers */,
+				01276DA11CF2C2C50051D1FE /* NSDictionary+Bedrock.h in Headers */,
+				015C5A651C701EF800916261 /* NSArray+Bedrock.h in Headers */,
+				01276DC21CF331480051D1FE /* NSData+Bedrock.h in Headers */,
+				015C5A691C704AC900916261 /* BedrockMacros.h in Headers */,
+				01276DAE1CF2CC050051D1FE /* NSAttributedString+Bedrock.h in Headers */,
+				01276DBE1CF32A3F0051D1FE /* NSSet+Bedrock.h in Headers */,
+				015C5A4A1C701EC400916261 /* Bedrock.h in Headers */,
+				01276DB21CF2CD920051D1FE /* NSError+Bedrock.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		015C5A451C701EC400916261 /* Bedrock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 015C5A5A1C701EC400916261 /* Build configuration list for PBXNativeTarget "Bedrock" */;
+			buildPhases = (
+				015C5A411C701EC400916261 /* Sources */,
+				015C5A421C701EC400916261 /* Frameworks */,
+				015C5A431C701EC400916261 /* Headers */,
+				015C5A441C701EC400916261 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bedrock;
+			productName = BedRock;
+			productReference = 015C5A461C701EC400916261 /* Bedrock.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		015C5A4F1C701EC400916261 /* BedrockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 015C5A5D1C701EC400916261 /* Build configuration list for PBXNativeTarget "BedrockTests" */;
+			buildPhases = (
+				015C5A4C1C701EC400916261 /* Sources */,
+				015C5A4D1C701EC400916261 /* Frameworks */,
+				015C5A4E1C701EC400916261 /* Resources */,
+				015C5A741C72050300916261 /* Copy Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				015C5A531C701EC400916261 /* PBXTargetDependency */,
+			);
+			name = BedrockTests;
+			productName = BedRockTests;
+			productReference = 015C5A501C701EC400916261 /* Bedrock.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		015C5A3D1C701EC400916261 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Nick Forge";
+				TargetAttributes = {
+					015C5A451C701EC400916261 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					015C5A4F1C701EC400916261 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 015C5A401C701EC400916261 /* Build configuration list for PBXProject "Bedrock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 015C5A3C1C701EC400916261;
+			productRefGroup = 015C5A471C701EC400916261 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				015C5A451C701EC400916261 /* Bedrock */,
+				015C5A4F1C701EC400916261 /* BedrockTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		015C5A441C701EC400916261 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		015C5A4E1C701EC400916261 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		015C5A411C701EC400916261 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01276DB31CF2CD920051D1FE /* NSError+Bedrock.m in Sources */,
+				01276DBF1CF32A3F0051D1FE /* NSSet+Bedrock.m in Sources */,
+				01276DAF1CF2CC050051D1FE /* NSAttributedString+Bedrock.m in Sources */,
+				01276DA71CF2C8020051D1FE /* NSObject+Bedrock.m in Sources */,
+				015C5A661C701EF800916261 /* NSArray+Bedrock.m in Sources */,
+				01276DC31CF331480051D1FE /* NSData+Bedrock.m in Sources */,
+				01276DAB1CF2CA110051D1FE /* NSString+Bedrock.m in Sources */,
+				01276DB71CF2D9710051D1FE /* NSFileManager+Bedrock.m in Sources */,
+				01276DA21CF2C2C50051D1FE /* NSDictionary+Bedrock.m in Sources */,
+				01276DBB1CF2E7A40051D1FE /* NSDate+Bedrock.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		015C5A4C1C701EC400916261 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				015C5A6F1C72001300916261 /* NSArray+BedrockTests.m in Sources */,
+				015C5A561C701EC400916261 /* BedrockTests.m in Sources */,
+				018DEC2E1D05628F000DD339 /* NSFileManager+BedrockTests.m in Sources */,
+				018DEC261D054C5D000DD339 /* NSAttributedString+BedrockTests.m in Sources */,
+				018DEC301D0562A9000DD339 /* NSObject+BedrockTests.m in Sources */,
+				012393741D05A013009D5DD9 /* NSSet+BedrockTests.m in Sources */,
+				015C5A6D1C72000800916261 /* BedrockMacrosTests.m in Sources */,
+				018DEC2C1D056189000DD339 /* NSError+BedrockTests.m in Sources */,
+				018DEC2A1D055A17000DD339 /* NSDictionary+BedrockTests.m in Sources */,
+				010880B01CF488C800AB38FF /* NSData+BedrockTests.m in Sources */,
+				012393761D05A4C5009D5DD9 /* NSString+BedrockTests.m in Sources */,
+				018DEC281D05534D000DD339 /* NSDate+BedrockTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		015C5A531C701EC400916261 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 015C5A451C701EC400916261 /* Bedrock */;
+			targetProxy = 015C5A521C701EC400916261 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		015C5A581C701EC400916261 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_ASSIGN_ENUM = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NULLABLE_TO_NONNULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_EXPLICIT_OWNERSHIP_TYPE = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		015C5A591C701EC400916261 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_ASSIGN_ENUM = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NULLABLE_TO_NONNULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_EXPLICIT_OWNERSHIP_TYPE = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		015C5A5B1C701EC400916261 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Bedrock/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nickforge.BedRock;
+				PRODUCT_NAME = Bedrock;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		015C5A5C1C701EC400916261 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Bedrock/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nickforge.BedRock;
+				PRODUCT_NAME = Bedrock;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		015C5A5E1C701EC400916261 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = BedrockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nickforge.BedRockTests;
+				PRODUCT_NAME = Bedrock;
+			};
+			name = Debug;
+		};
+		015C5A5F1C701EC400916261 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = BedrockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nickforge.BedRockTests;
+				PRODUCT_NAME = Bedrock;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		015C5A401C701EC400916261 /* Build configuration list for PBXProject "Bedrock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015C5A581C701EC400916261 /* Debug */,
+				015C5A591C701EC400916261 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		015C5A5A1C701EC400916261 /* Build configuration list for PBXNativeTarget "Bedrock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015C5A5B1C701EC400916261 /* Debug */,
+				015C5A5C1C701EC400916261 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		015C5A5D1C701EC400916261 /* Build configuration list for PBXNativeTarget "BedrockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015C5A5E1C701EC400916261 /* Debug */,
+				015C5A5F1C701EC400916261 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 015C5A3D1C701EC400916261 /* Project object */;
+}
