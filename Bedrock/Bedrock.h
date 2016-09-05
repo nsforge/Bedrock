@@ -6,7 +6,7 @@
 //  Copyright © 2016 Nick Forge. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
 //! Project version number for Bedrock.
 FOUNDATION_EXPORT double BedrockVersionNumber;

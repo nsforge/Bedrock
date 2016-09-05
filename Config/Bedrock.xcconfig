@@ -1,0 +1,10 @@
+//
+//  Bedrock.xcconfig
+//  Bedrock
+//
+//  Created by Nick Forge on 5/09/2016.
+//  Copyright © 2016 Nick Forge. All rights reserved.
+//
+
+SUPPORTED_PLATFORMS = macosx iphoneos appletvos watchos appletvsimulator iphonesimulator watchsimulator
+TARGETED_DEVICE_FAMILY = 1,2,3,4
