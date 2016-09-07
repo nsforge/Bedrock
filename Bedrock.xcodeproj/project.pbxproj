@@ -500,6 +500,7 @@
 		};
 		015C5A591C701EC400916261 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 010EC0E01D7D330300C223F2 /* Bedrock.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
