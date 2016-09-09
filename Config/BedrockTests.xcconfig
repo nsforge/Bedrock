@@ -1,0 +1,10 @@
+//
+//  BedrockTests.xcconfig
+//  Bedrock
+//
+//  Created by Nick Forge on 9/09/2016.
+//  Copyright © 2016 Nick Forge. All rights reserved.
+//
+
+#include "UniversalFramework.xcconfig"
+#include "ImportCarthageFrameworks.xcconfig"

@@ -91,6 +91,9 @@
 		015C5A6C1C72000800916261 /* BedrockMacrosTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BedrockMacrosTests.m; sourceTree = "<group>"; };
 		015C5A6E1C72001300916261 /* NSArray+BedrockTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+BedrockTests.m"; sourceTree = "<group>"; };
 		015C5A721C72031E00916261 /* Expecta.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Expecta.framework; sourceTree = "<group>"; };
+		016A87B51D82B67500D9C2CE /* ImportCarthageFrameworks.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = ImportCarthageFrameworks.xcconfig; sourceTree = "<group>"; };
+		016A87B61D82B69A00D9C2CE /* BedrockTests.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = BedrockTests.xcconfig; sourceTree = "<group>"; };
+		016A87B71D82B6A400D9C2CE /* UniversalFramework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = UniversalFramework.xcconfig; sourceTree = "<group>"; };
 		018DEC251D054C5D000DD339 /* NSAttributedString+BedrockTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+BedrockTests.m"; sourceTree = "<group>"; };
 		018DEC271D05534D000DD339 /* NSDate+BedrockTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+BedrockTests.m"; sourceTree = "<group>"; };
 		018DEC291D055A17000DD339 /* NSDictionary+BedrockTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+BedrockTests.m"; sourceTree = "<group>"; };
@@ -123,6 +126,9 @@
 			isa = PBXGroup;
 			children = (
 				010EC0E01D7D330300C223F2 /* Bedrock.xcconfig */,
+				016A87B61D82B69A00D9C2CE /* BedrockTests.xcconfig */,
+				016A87B71D82B6A400D9C2CE /* UniversalFramework.xcconfig */,
+				016A87B51D82B67500D9C2CE /* ImportCarthageFrameworks.xcconfig */,
 			);
 			name = Config;
 			path = ../Config;
@@ -445,7 +451,6 @@
 /* Begin XCBuildConfiguration section */
 		015C5A581C701EC400916261 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 010EC0E01D7D330300C223F2 /* Bedrock.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -504,7 +509,6 @@
 		};
 		015C5A591C701EC400916261 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 010EC0E01D7D330300C223F2 /* Bedrock.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -557,6 +561,7 @@
 		};
 		015C5A5B1C701EC400916261 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 010EC0E01D7D330300C223F2 /* Bedrock.xcconfig */;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -572,6 +577,7 @@
 		};
 		015C5A5C1C701EC400916261 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 010EC0E01D7D330300C223F2 /* Bedrock.xcconfig */;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -587,6 +593,7 @@
 		};
 		015C5A5E1C701EC400916261 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 016A87B61D82B69A00D9C2CE /* BedrockTests.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = BedrockTests/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nickforge.BedRockTests;
@@ -596,6 +603,7 @@
 		};
 		015C5A5F1C701EC400916261 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 016A87B61D82B69A00D9C2CE /* BedrockTests.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = BedrockTests/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nickforge.BedRockTests;
