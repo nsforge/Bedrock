@@ -13,3 +13,32 @@ IPHONEOS_DEPLOYMENT_TARGET = 9.0
 MACOSX_DEPLOYMENT_TARGET = 10.11
 TVOS_DEPLOYMENT_TARGET = 9.0
 WATCHOS_DEPLOYMENT_TARGET = 2.0
+
+VALID_ARCHS[sdk=macosx*]               = i386 x86_64
+VALID_ARCHS[sdk=iphoneos*]             = arm64 armv7 armv7s
+VALID_ARCHS[sdk=iphonesimulator*]      = i386 x86_64
+VALID_ARCHS[sdk=watchos*]              = armv7k
+VALID_ARCHS[sdk=watchsimulator*]       = i386
+VALID_ARCHS[sdk=appletv*]              = arm64
+VALID_ARCHS[sdk=appletvsimulator*]     = x86_64
+
+LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]           = $(inherited) '@executable_path/../Frameworks' '@loader_path/../Frameworks'
+LD_RUNPATH_SEARCH_PATHS[sdk=iphoneos*]         = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+LD_RUNPATH_SEARCH_PATHS[sdk=iphonesimulator*]  = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+LD_RUNPATH_SEARCH_PATHS[sdk=watchos*]          = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+LD_RUNPATH_SEARCH_PATHS[sdk=watchsimulator*]   = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+LD_RUNPATH_SEARCH_PATHS[sdk=appletvos*]        = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+LD_RUNPATH_SEARCH_PATHS[sdk=appletvsimulator*] = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+
+// Carthage Framework Search Paths
+
+CARTHAGE_BUILD_DIR[sdk=macosx*] = $(SRCROOT)/Carthage/Build/Mac
+CARTHAGE_BUILD_DIR[sdk=iphoneos*] = $(SRCROOT)/Carthage/Build/iOS
+CARTHAGE_BUILD_DIR[sdk=iphonesimulator*] = $(SRCROOT)/Carthage/Build/iOS
+CARTHAGE_BUILD_DIR[sdk=watchos*] = $(SRCROOT)/Carthage/Build/watchOS
+CARTHAGE_BUILD_DIR[sdk=watchossimulator*] = $(SRCROOT)/Carthage/Build/watchOS
+CARTHAGE_BUILD_DIR[sdk=appletvos*] = $(SRCROOT)/Carthage/Build/tvOS
+CARTHAGE_BUILD_DIR[sdk=appletvsimulator*] = $(SRCROOT)/Carthage/Build/tvOS
+
+FRAMEWORK_SEARCH_PATHS = $(inherited) $(CARTHAGE_BUILD_DIR)
+
