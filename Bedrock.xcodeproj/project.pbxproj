@@ -30,7 +30,6 @@
 		01276DC31CF331480051D1FE /* NSData+Bedrock.m in Sources */ = {isa = PBXBuildFile; fileRef = 01276DC11CF331480051D1FE /* NSData+Bedrock.m */; };
 		015C5A4A1C701EC400916261 /* Bedrock.h in Headers */ = {isa = PBXBuildFile; fileRef = 015C5A491C701EC400916261 /* Bedrock.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		015C5A511C701EC400916261 /* Bedrock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 015C5A461C701EC400916261 /* Bedrock.framework */; };
-		015C5A561C701EC400916261 /* BedrockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 015C5A551C701EC400916261 /* BedrockTests.m */; };
 		015C5A651C701EF800916261 /* NSArray+Bedrock.h in Headers */ = {isa = PBXBuildFile; fileRef = 015C5A631C701EF800916261 /* NSArray+Bedrock.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		015C5A661C701EF800916261 /* NSArray+Bedrock.m in Sources */ = {isa = PBXBuildFile; fileRef = 015C5A641C701EF800916261 /* NSArray+Bedrock.m */; };
 		015C5A691C704AC900916261 /* BedrockMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 015C5A681C704AC900916261 /* BedrockMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -83,7 +82,6 @@
 		015C5A491C701EC400916261 /* Bedrock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bedrock.h; sourceTree = "<group>"; };
 		015C5A4B1C701EC400916261 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		015C5A501C701EC400916261 /* Bedrock.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Bedrock.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		015C5A551C701EC400916261 /* BedrockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BedrockTests.m; sourceTree = "<group>"; };
 		015C5A571C701EC400916261 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		015C5A631C701EF800916261 /* NSArray+Bedrock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Bedrock.h"; sourceTree = "<group>"; };
 		015C5A641C701EF800916261 /* NSArray+Bedrock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Bedrock.m"; sourceTree = "<group>"; };
@@ -222,7 +220,6 @@
 			children = (
 				015C5A6A1C71FFEE00916261 /* Macros */,
 				015C5A6B1C71FFF300916261 /* Categories */,
-				015C5A551C701EC400916261 /* BedrockTests.m */,
 				015C5A571C701EC400916261 /* Info.plist */,
 			);
 			path = BedrockTests;
@@ -424,7 +421,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				015C5A6F1C72001300916261 /* NSArray+BedrockTests.m in Sources */,
-				015C5A561C701EC400916261 /* BedrockTests.m in Sources */,
 				018DEC2E1D05628F000DD339 /* NSFileManager+BedrockTests.m in Sources */,
 				018DEC261D054C5D000DD339 /* NSAttributedString+BedrockTests.m in Sources */,
 				018DEC301D0562A9000DD339 /* NSObject+BedrockTests.m in Sources */,
