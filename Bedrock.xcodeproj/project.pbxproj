@@ -573,7 +573,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Bedrock/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nickforge.BedRock;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nickforge.Bedrock;
 				PRODUCT_NAME = Bedrock;
 				SKIP_INSTALL = YES;
 			};
@@ -589,7 +589,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Bedrock/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nickforge.BedRock;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nickforge.Bedrock;
 				PRODUCT_NAME = Bedrock;
 				SKIP_INSTALL = YES;
 			};
@@ -600,7 +600,7 @@
 			baseConfigurationReference = 016A87B61D82B69A00D9C2CE /* BedrockTests.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = BedrockTests/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nickforge.BedRockTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nickforge.BedrockTests;
 				PRODUCT_NAME = Bedrock;
 			};
 			name = Debug;
@@ -610,7 +610,7 @@
 			baseConfigurationReference = 016A87B61D82B69A00D9C2CE /* BedrockTests.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = BedrockTests/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nickforge.BedRockTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nickforge.BedrockTests;
 				PRODUCT_NAME = Bedrock;
 			};
 			name = Release;
