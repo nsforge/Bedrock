@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "015C5A451C701EC400916261"
                BuildableName = "Bedrock.framework"
-               BlueprintName = "Bedrock"
+               BlueprintName = "Bedrock-macOS"
                ReferencedContainer = "container:Bedrock.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -34,7 +34,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "015C5A4F1C701EC400916261"
                BuildableName = "Bedrock.xctest"
-               BlueprintName = "BedrockTests"
+               BlueprintName = "Bedrock-macOSTests"
                ReferencedContainer = "container:Bedrock.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -44,7 +44,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "015C5A451C701EC400916261"
             BuildableName = "Bedrock.framework"
-            BlueprintName = "Bedrock"
+            BlueprintName = "Bedrock-macOS"
             ReferencedContainer = "container:Bedrock.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -66,7 +66,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "015C5A451C701EC400916261"
             BuildableName = "Bedrock.framework"
-            BlueprintName = "Bedrock"
+            BlueprintName = "Bedrock-macOS"
             ReferencedContainer = "container:Bedrock.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -84,7 +84,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "015C5A451C701EC400916261"
             BuildableName = "Bedrock.framework"
-            BlueprintName = "Bedrock"
+            BlueprintName = "Bedrock-macOS"
             ReferencedContainer = "container:Bedrock.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

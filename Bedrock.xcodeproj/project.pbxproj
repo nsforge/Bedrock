@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0104A03321C7771300139402 /* Expecta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0104A03221C7771300139402 /* Expecta.framework */; };
 		010880B01CF488C800AB38FF /* NSData+BedrockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 010880AF1CF488C800AB38FF /* NSData+BedrockTests.m */; };
 		012393741D05A013009D5DD9 /* NSSet+BedrockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 012393731D05A013009D5DD9 /* NSSet+BedrockTests.m */; };
 		012393761D05A4C5009D5DD9 /* NSString+BedrockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 012393751D05A4C5009D5DD9 /* NSString+BedrockTests.m */; };
@@ -35,7 +36,6 @@
 		015C5A691C704AC900916261 /* BedrockMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 015C5A681C704AC900916261 /* BedrockMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		015C5A6D1C72000800916261 /* BedrockMacrosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 015C5A6C1C72000800916261 /* BedrockMacrosTests.m */; };
 		015C5A6F1C72001300916261 /* NSArray+BedrockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 015C5A6E1C72001300916261 /* NSArray+BedrockTests.m */; };
-		015C5A731C72031E00916261 /* Expecta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 015C5A721C72031E00916261 /* Expecta.framework */; };
 		018DEC261D054C5D000DD339 /* NSAttributedString+BedrockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 018DEC251D054C5D000DD339 /* NSAttributedString+BedrockTests.m */; };
 		018DEC281D05534D000DD339 /* NSDate+BedrockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 018DEC271D05534D000DD339 /* NSDate+BedrockTests.m */; };
 		018DEC2A1D055A17000DD339 /* NSDictionary+BedrockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 018DEC291D055A17000DD339 /* NSDictionary+BedrockTests.m */; };
@@ -55,6 +55,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0104A03221C7771300139402 /* Expecta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Expecta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		010880AF1CF488C800AB38FF /* NSData+BedrockTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+BedrockTests.m"; sourceTree = "<group>"; };
 		010EC0E01D7D330300C223F2 /* Bedrock.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Bedrock.xcconfig; sourceTree = "<group>"; };
 		012393731D05A013009D5DD9 /* NSSet+BedrockTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSet+BedrockTests.m"; sourceTree = "<group>"; };
@@ -89,9 +90,10 @@
 		015C5A6C1C72000800916261 /* BedrockMacrosTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BedrockMacrosTests.m; sourceTree = "<group>"; };
 		015C5A6E1C72001300916261 /* NSArray+BedrockTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+BedrockTests.m"; sourceTree = "<group>"; };
 		015C5A721C72031E00916261 /* Expecta.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Expecta.framework; sourceTree = "<group>"; };
-		016A87B51D82B67500D9C2CE /* ImportCarthageFrameworks.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = ImportCarthageFrameworks.xcconfig; sourceTree = "<group>"; };
 		016A87B61D82B69A00D9C2CE /* BedrockTests.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = BedrockTests.xcconfig; sourceTree = "<group>"; };
-		016A87B71D82B6A400D9C2CE /* UniversalFramework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = UniversalFramework.xcconfig; sourceTree = "<group>"; };
+		016B0E3321C774730034D4B9 /* Expecta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Expecta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		016B0E3521C774890034D4B9 /* Expecta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Expecta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		016B0E3721C774CA0034D4B9 /* Expecta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Expecta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		018DEC251D054C5D000DD339 /* NSAttributedString+BedrockTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+BedrockTests.m"; sourceTree = "<group>"; };
 		018DEC271D05534D000DD339 /* NSDate+BedrockTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+BedrockTests.m"; sourceTree = "<group>"; };
 		018DEC291D055A17000DD339 /* NSDictionary+BedrockTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+BedrockTests.m"; sourceTree = "<group>"; };
@@ -112,8 +114,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0104A03321C7771300139402 /* Expecta.framework in Frameworks */,
 				015C5A511C701EC400916261 /* Bedrock.framework in Frameworks */,
-				015C5A731C72031E00916261 /* Expecta.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,8 +127,6 @@
 			children = (
 				010EC0E01D7D330300C223F2 /* Bedrock.xcconfig */,
 				016A87B61D82B69A00D9C2CE /* BedrockTests.xcconfig */,
-				016A87B71D82B6A400D9C2CE /* UniversalFramework.xcconfig */,
-				016A87B51D82B67500D9C2CE /* ImportCarthageFrameworks.xcconfig */,
 			);
 			name = Config;
 			path = ../Config;
@@ -191,6 +191,7 @@
 				015C5A541C701EC400916261 /* BedrockTests */,
 				015C5A701C7202FE00916261 /* Carthage */,
 				015C5A471C701EC400916261 /* Products */,
+				016B0E3121C773600034D4B9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -266,6 +267,17 @@
 			path = Carthage;
 			sourceTree = "<group>";
 		};
+		016B0E3121C773600034D4B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0104A03221C7771300139402 /* Expecta.framework */,
+				016B0E3721C774CA0034D4B9 /* Expecta.framework */,
+				016B0E3521C774890034D4B9 /* Expecta.framework */,
+				016B0E3321C774730034D4B9 /* Expecta.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -291,9 +303,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		015C5A451C701EC400916261 /* Bedrock */ = {
+		015C5A451C701EC400916261 /* Bedrock-macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 015C5A5A1C701EC400916261 /* Build configuration list for PBXNativeTarget "Bedrock" */;
+			buildConfigurationList = 015C5A5A1C701EC400916261 /* Build configuration list for PBXNativeTarget "Bedrock-macOS" */;
 			buildPhases = (
 				015C5A411C701EC400916261 /* Sources */,
 				015C5A421C701EC400916261 /* Frameworks */,
@@ -304,26 +316,25 @@
 			);
 			dependencies = (
 			);
-			name = Bedrock;
+			name = "Bedrock-macOS";
 			productName = BedRock;
 			productReference = 015C5A461C701EC400916261 /* Bedrock.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		015C5A4F1C701EC400916261 /* BedrockTests */ = {
+		015C5A4F1C701EC400916261 /* Bedrock-macOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 015C5A5D1C701EC400916261 /* Build configuration list for PBXNativeTarget "BedrockTests" */;
+			buildConfigurationList = 015C5A5D1C701EC400916261 /* Build configuration list for PBXNativeTarget "Bedrock-macOSTests" */;
 			buildPhases = (
 				015C5A4C1C701EC400916261 /* Sources */,
 				015C5A4D1C701EC400916261 /* Frameworks */,
 				015C5A4E1C701EC400916261 /* Resources */,
-				016A87B11D82AC7400D9C2CE /* Copy Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				015C5A531C701EC400916261 /* PBXTargetDependency */,
 			);
-			name = BedrockTests;
+			name = "Bedrock-macOSTests";
 			productName = BedRockTests;
 			productReference = 015C5A501C701EC400916261 /* Bedrock.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -357,8 +368,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				015C5A451C701EC400916261 /* Bedrock */,
-				015C5A4F1C701EC400916261 /* BedrockTests */,
+				015C5A451C701EC400916261 /* Bedrock-macOS */,
+				015C5A4F1C701EC400916261 /* Bedrock-macOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -379,24 +390,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		016A87B11D82AC7400D9C2CE /* Copy Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				$CARTHAGE_BUILD_DIR/Expecta.framework,
-			);
-			name = "Copy Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		015C5A411C701EC400916261 /* Sources */ = {
@@ -439,7 +432,7 @@
 /* Begin PBXTargetDependency section */
 		015C5A531C701EC400916261 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 015C5A451C701EC400916261 /* Bedrock */;
+			target = 015C5A451C701EC400916261 /* Bedrock-macOS */;
 			targetProxy = 015C5A521C701EC400916261 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -567,15 +560,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 010EC0E01D7D330300C223F2 /* Bedrock.xcconfig */;
 			buildSettings = {
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Bedrock/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nickforge.Bedrock;
-				PRODUCT_NAME = Bedrock;
-				SKIP_INSTALL = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				SUPPORTED_PLATFORMS = macosx;
 			};
 			name = Debug;
 		};
@@ -583,15 +569,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 010EC0E01D7D330300C223F2 /* Bedrock.xcconfig */;
 			buildSettings = {
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Bedrock/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nickforge.Bedrock;
-				PRODUCT_NAME = Bedrock;
-				SKIP_INSTALL = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				SUPPORTED_PLATFORMS = macosx;
 			};
 			name = Release;
 		};
@@ -599,9 +578,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 016A87B61D82B69A00D9C2CE /* BedrockTests.xcconfig */;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(BUILT_PRODUCTS_DIR)",
+				);
 				INFOPLIST_FILE = BedrockTests/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nickforge.BedrockTests;
 				PRODUCT_NAME = Bedrock;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 			};
 			name = Debug;
 		};
@@ -609,9 +593,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 016A87B61D82B69A00D9C2CE /* BedrockTests.xcconfig */;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(BUILT_PRODUCTS_DIR)",
+				);
 				INFOPLIST_FILE = BedrockTests/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nickforge.BedrockTests;
 				PRODUCT_NAME = Bedrock;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 			};
 			name = Release;
 		};
@@ -627,7 +616,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		015C5A5A1C701EC400916261 /* Build configuration list for PBXNativeTarget "Bedrock" */ = {
+		015C5A5A1C701EC400916261 /* Build configuration list for PBXNativeTarget "Bedrock-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				015C5A5B1C701EC400916261 /* Debug */,
@@ -636,7 +625,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		015C5A5D1C701EC400916261 /* Build configuration list for PBXNativeTarget "BedrockTests" */ = {
+		015C5A5D1C701EC400916261 /* Build configuration list for PBXNativeTarget "Bedrock-macOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				015C5A5E1C701EC400916261 /* Debug */,
