@@ -1,0 +1,14 @@
+//
+//  Config.xcconfig
+//  Bedrock
+//
+//  Created by Nick Forge on 19/12/18.
+//  Copyright © 2018 Nick Forge. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+BR_PLATFORM = macOS
+
+#include "Bedrock.xcconfig"

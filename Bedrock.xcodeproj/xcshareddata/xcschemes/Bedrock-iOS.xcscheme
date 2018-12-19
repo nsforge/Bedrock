@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0930"
+   LastUpgradeVersion = "1010"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "015C5A451C701EC400916261"
+               BlueprintIdentifier = "0104A05421C9C29400139402"
                BuildableName = "Bedrock.framework"
-               BlueprintName = "Bedrock-macOS"
+               BlueprintName = "Bedrock-iOS"
                ReferencedContainer = "container:Bedrock.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "015C5A4F1C701EC400916261"
-               BuildableName = "Bedrock-macOSTests.xctest"
-               BlueprintName = "Bedrock-macOSTests"
+               BlueprintIdentifier = "0104A05C21C9C29500139402"
+               BuildableName = "Bedrock-iOSTests.xctest"
+               BlueprintName = "Bedrock-iOSTests"
                ReferencedContainer = "container:Bedrock.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -42,9 +42,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "015C5A451C701EC400916261"
+            BlueprintIdentifier = "0104A05421C9C29400139402"
             BuildableName = "Bedrock.framework"
-            BlueprintName = "Bedrock-macOS"
+            BlueprintName = "Bedrock-iOS"
             ReferencedContainer = "container:Bedrock.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -64,9 +64,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "015C5A451C701EC400916261"
+            BlueprintIdentifier = "0104A05421C9C29400139402"
             BuildableName = "Bedrock.framework"
-            BlueprintName = "Bedrock-macOS"
+            BlueprintName = "Bedrock-iOS"
             ReferencedContainer = "container:Bedrock.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -82,9 +82,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "015C5A451C701EC400916261"
+            BlueprintIdentifier = "0104A05421C9C29400139402"
             BuildableName = "Bedrock.framework"
-            BlueprintName = "Bedrock-macOS"
+            BlueprintName = "Bedrock-iOS"
             ReferencedContainer = "container:Bedrock.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

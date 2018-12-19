@@ -6,3 +6,6 @@
 //  Copyright © 2016 Nick Forge. All rights reserved.
 //
 
+FRAMEWORK_SEARCH_PATHS = $(inherited) $(BUILT_PRODUCTS_DIR)
+
+INFOPLIST_FILE = BedrockTests/Info.plist
