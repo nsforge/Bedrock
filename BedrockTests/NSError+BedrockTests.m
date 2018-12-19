@@ -56,10 +56,13 @@
 - (void)test_diagnosticDescription
 {
 	NSError *error = [NSError br_errorWithDomain:@"Domain" code:123 description:@"An error occurred"];
-	expect(error.br_diagnosticDescription).to.equal(@"Error Domain[123] 'An error occurred'");
+	expect(error.br_diagnosticDescription).to.equal(@"Domain:123 'An error occurred'");
 	
-	NSError *error2 = [NSError br_errorWithDomain:@"AnotherDomain" code:456 underlyingError:error description:@"Something lower-level went wrong"];
-	expect(error2.br_diagnosticDescription).to.equal(@"Error AnotherDomain[456] 'Something lower-level went wrong' {NSUnderlyingError: (Error Domain[123] 'An error occurred')}");
+	NSError *error2 = [NSError errorWithDomain:@"Domain" code:456 userInfo:@{NSLocalizedDescriptionKey: @"An error occurred", @"myKey": @"myValue"}];
+	expect(error2.br_diagnosticDescription).to.equal(@"Domain:456 'An error occurred' {\n    myKey: myValue\n}");
+	
+	NSError *error3 = [NSError br_errorWithDomain:@"AnotherDomain" code:789 underlyingError:error description:@"Something lower-level went wrong"];
+	expect(error3.br_diagnosticDescription).to.equal(@"AnotherDomain:789 'Something lower-level went wrong' {\n    underlyingError: Domain:123 'An error occurred'\n}");
 }
 
 @end
