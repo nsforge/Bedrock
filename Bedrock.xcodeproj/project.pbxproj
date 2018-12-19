@@ -434,7 +434,7 @@
 		015C5A3D1C701EC400916261 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Nick Forge";
 				TargetAttributes = {
 					0104A05421C9C29400139402 = {
@@ -595,7 +595,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0104A06C21C9C3E200139402 /* Bedrock-iOS.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
@@ -612,7 +612,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0104A06C21C9C3E200139402 /* Bedrock-iOS.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
