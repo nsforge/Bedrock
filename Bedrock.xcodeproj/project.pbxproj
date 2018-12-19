@@ -466,8 +466,8 @@
 			projectRoot = "";
 			targets = (
 				015C5A451C701EC400916261 /* Bedrock-macOS */,
-				015C5A4F1C701EC400916261 /* Bedrock-macOSTests */,
 				0104A05421C9C29400139402 /* Bedrock-iOS */,
+				015C5A4F1C701EC400916261 /* Bedrock-macOSTests */,
 				0104A05C21C9C29500139402 /* Bedrock-iOSTests */,
 			);
 		};
@@ -686,6 +686,7 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_ASSIGN_ENUM = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -713,6 +714,7 @@
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_NS_ASSERTIONS = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -748,6 +750,7 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_ASSIGN_ENUM = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -775,7 +778,7 @@
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_NS_ASSERTIONS = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -801,7 +804,6 @@
 			buildSettings = {
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				SDKROOT = macosx;
-				SUPPORTED_PLATFORMS = macosx;
 			};
 			name = Debug;
 		};
@@ -811,7 +813,6 @@
 			buildSettings = {
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				SDKROOT = macosx;
-				SUPPORTED_PLATFORMS = macosx;
 			};
 			name = Release;
 		};
@@ -821,7 +822,6 @@
 			buildSettings = {
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nickforge.Bedrock-macOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 			};
 			name = Debug;
 		};
@@ -831,7 +831,6 @@
 			buildSettings = {
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nickforge.Bedrock-macOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 			};
 			name = Release;
 		};
