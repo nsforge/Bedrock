@@ -1,4 +1,4 @@
-# Bedrock
+# Bedrock [![Build Status](https://travis-ci.org/nsforge/Bedrock.svg?branch=master)](https://travis-ci.org/nsforge/Bedrock)
 
 Bedrock is a library of Objective-C categories, functions and macros that make it easier to write cleaner, more concise, and more reliable code. It is currently only configured and tested on iOS, but could be easily extended to other Apple platforms.
 
