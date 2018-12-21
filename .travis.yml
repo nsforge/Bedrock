@@ -1,0 +1,10 @@
+language: objective-c
+osx_image: xcode10.1
+xcode_workspace: Bedrock.xcworkspace
+
+matrix:
+  include:
+    - xcode_scheme: Bedrock-macOS
+      xcode_destination: platform=macOS
+    - xcode_scheme: Bedrock-iOS
+      xcode_destination: platform=iOS Simulator,OS=12.1,name=iPhone X
