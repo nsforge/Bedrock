@@ -2,6 +2,9 @@ language: objective-c
 osx_image: xcode10.1
 xcode_workspace: Bedrock.xcworkspace
 
+before_script:
+  - carthage bootstrap --no-build
+
 matrix:
   include:
     - xcode_scheme: Bedrock-macOS
