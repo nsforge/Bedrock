@@ -456,10 +456,11 @@
 			};
 			buildConfigurationList = 015C5A401C701EC400916261 /* Build configuration list for PBXProject "Bedrock" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 015C5A3C1C701EC400916261;
 			productRefGroup = 015C5A471C701EC400916261 /* Products */;
